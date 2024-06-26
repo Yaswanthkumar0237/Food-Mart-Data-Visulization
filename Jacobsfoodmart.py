@@ -26,9 +26,6 @@ df.drop(columns=[df.columns[1]], inplace=True)
 df.set_index(date_column, inplace=True)
 df.index = pd.to_datetime(df.index)  # Ensure the index is in datetime format
 
-# Save the modified DataFrame back to a CSV file if needed
-df.to_csv('C:/Users/yaswa/PycharmProjects/pythonProject2/DeptSalesLog_modified.csv', index=True)
-
 # Display the DataFrame
 st.dataframe(df)
 
