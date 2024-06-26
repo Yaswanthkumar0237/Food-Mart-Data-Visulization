@@ -9,7 +9,7 @@ import plotly.figure_factory as ff
 st.header('1. Excel Data')
 
 # Define the path to the CSV file
-file_path = 'C:/Users/yaswa/PycharmProjects/pythonProject2/DeptSales.csv'
+file_path = 'DeptSales.csv'
 
 # Read the CSV file, treating the first row as headers
 df = pd.read_csv(file_path)
